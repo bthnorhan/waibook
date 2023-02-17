@@ -1,3 +1,16 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": ["next/core-web-vitals", "prettier"],
+	"rules": {
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+		"react/react-in-jsx-scope": "off",
+		"camelcase": "error",
+		"spaced-comment": "error",
+		"quotes": ["error", "single"],
+		"no-duplicate-imports": "error",
+		"indent": ["error", "tab"],
+		"linebreak-style": ["error", "unix"],
+		"semi": ["error", "always"],
+		"prefer-arrow-callback": ["error", { "allowNamedFunctions": true }],
+		"func-style": ["error", "expression", { "allowArrowFunctions": true }]
+	}
 }
