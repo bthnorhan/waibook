@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'ContiSans';
+	src: url('../fonts/ContiSans.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ContiSans';
+	src: url('../fonts/ContiSans-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ContiSans';
+	src: url('../fonts/ContiSans-Light.otf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-family: 'ContiSans', sans-serif;
+}
