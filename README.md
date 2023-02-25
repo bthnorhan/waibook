@@ -1,3 +1,5 @@
+Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to [email](mailto:bthnorhan00@gmail.com). I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section. Thanks so much!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
