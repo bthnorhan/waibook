@@ -2,6 +2,7 @@
 	"name": "waibook",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://waibook.batuhanorhan.com/",
 	"author": {
 		"name": "Batuhan ORHAN",
 		"email": "bthnorhan00@gmail.com"
@@ -10,7 +11,8 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint --fix"
+		"lint": "next lint --fix",
+		"export": "next build && next export"
 	},
 	"dependencies": {
 		"@next/font": "13.1.6",
