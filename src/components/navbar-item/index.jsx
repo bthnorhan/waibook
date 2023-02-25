@@ -1,16 +1,21 @@
 import Link from 'next/link';
-import { Button } from '..';
 
-export const NavBarItem = ({ text, href = '/', type = 'a' }) => {
+import { Button } from '..';
+import { scrollToElement } from '@/utils';
+
+export const NavBarItem = ({ text, href = '', type = 'a' }) => {
+	const onClickHandler = () => {
+		scrollToElement(href);
+	};
+
 	return (
-		<Link href={href}>
-			<div
-				className={`${
-					type === 'button' ? 'w-40' : 'w-28'
-				} h-12 flex items-center justify-center cursor-pointer`}
-			>
-				{type === 'button' ? <Button href={href} text={text} /> : <span>{text}</span>}
-			</div>
-		</Link>
+		<div
+			className={`${
+				type === 'button' ? 'w-32 md:w-40' : 'w-20 md:w-28'
+			} h-12 flex items-center justify-center cursor-pointer`}
+			onClick={onClickHandler}
+		>
+			{type === 'button' ? <Button href={href} text={text} /> : <span>{text}</span>}
+		</div>
 	);
 };
