@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 
 import { Button } from '..';
-import styles from '@/styles/Information.module.css';
 import { scrollToTop } from '@/utils';
 
 export const Information = () => {
@@ -16,9 +15,7 @@ export const Information = () => {
 			id='information'
 			className='relative flex justify-center items-center py-10 xl:py-20 text-gray-50'
 		>
-			<div
-				className={`flex justify-center items-center text-center py-10 xl:py-20 ${styles.information} rounded-2xl`}
-			>
+			<div className='flex justify-center items-center text-center py-10 xl:py-20 bg-primary rounded-2xl'>
 				<div className='w-2/4 flex flex-col gap-20 items-center'>
 					<h3 className='text-5xl font-bold'>Get More Information</h3>
 					<p className='text-2xl'>
